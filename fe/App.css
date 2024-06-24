@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.MuiAppBar-colorPrimary {
+  background: linear-gradient(45deg, #3f51b5 30%, #1a237e 90%);
+}
+
+.MuiButton-containedPrimary {
+  background: linear-gradient(45deg, #3f51b5 30%, #1a237e 90%);
+  border: 0;
+  color: white;
+  height: 48px;
+  padding: 0 30px;
+  box-shadow: 0 3px 5px 2px rgba(63, 81, 181, .3);
+}
+
+.MuiCardContent-root {
+  background-color: #fafafa;
+}
+
+.campaign-card {
+  max-width: 345px;
+  margin: 20px;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.campaign-card:hover {
+  transform: scale(1.05);
+}
+
+.wallet-integration {
+  margin-top: 50px;
+}
+
+.wallet-integration input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.wallet-integration button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.wallet-integration button:hover {
+  background-color: #45a049;
+}
