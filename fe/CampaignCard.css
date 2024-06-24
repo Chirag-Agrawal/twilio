@@ -1,0 +1,18 @@
+.campaign-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 345px;
+    margin: 20px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .campaign-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .MuiCardContent-root {
+    background-color: #fafafa;
+  }
+  
